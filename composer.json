@@ -19,7 +19,7 @@
     },
     "require": {
         "php": ">=5.3.2",
-        "predis/predis": "~0.8.3@stable",
+        "openworkers/redobject": "dev-develop",
         "silex/silex": "~1.0"
     }
 }
