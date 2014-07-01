@@ -5,5 +5,5 @@ This is a service provider for [Silex](http://silex-project.org)
 ## Getting started ##
 
 ```php
-$app->register(new Predis\Silex\RedObjectServiceProvider());
+$app->register(RedObjectServiceProvider());
 ```
