@@ -1,0 +1,25 @@
+{
+    "name": "rndstuff/silex-redobject-provider",
+    "type": "library",
+    "description": "",
+    "keywords": ["silex", "redobject", "predis"],
+    "homepage": "https://github.com/RndStuff/SilexRedObjectProvider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andre Randel",
+            "email": "andreRandel2k7@gmail.com",
+            "homepage": "https://doomsta.github.io"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "RndStuff\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.2",
+        "predis/predis": "~0.8.3@stable",
+        "silex/silex": "~1.0"
+    }
+}
